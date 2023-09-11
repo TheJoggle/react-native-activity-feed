@@ -1,10 +1,9 @@
 {
   "name": "@apzelos/react-native-activity-feed-core",
+  "description": "",
   "version": "2.0.0",
   "license": "BSD-3-Clause",
-  "author": {
-    "company": "Stream.io Inc"
-  },
+  "author": "APZelos",
   "keywords": [
     "feed",
     "newsfeed",
@@ -94,5 +93,13 @@
   "files": [
     "src",
     "README.md"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APZelos/react-native-activity-feed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/APZelos/react-native-activity-feed.git/issues"
+  },
+  "homepage": "https://github.com/APZelos/react-native-activity-feed.git#readme"
 }
