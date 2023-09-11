@@ -91,8 +91,8 @@
     "url-parse": "^1.5.10"
   },
   "peerDependencies": {
-    "react": "16.3.1",
-    "react-native": "~0.55.2",
+    "react": "^18.2.0",
+    "react-native": "^0.72.0",
     "react-navigation": "^2.3.1"
   },
   "files": [
