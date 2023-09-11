@@ -6,6 +6,7 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
+    "plugin:markdown/recommended",
     "plugin:prettier/recommended"
   ],
   "parser": "babel-eslint",
@@ -16,7 +17,7 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["babel", "markdown"],
+  "plugins": ["babel"],
   "rules": {
     "array-callback-return": 2,
     "arrow-body-style": 2,
