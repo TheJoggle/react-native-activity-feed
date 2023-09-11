@@ -14,4 +14,4 @@ import UrlPreview from '../UrlPreview';
   }}
   onPressDismiss={() => {}}
 />;
-```
+```;

@@ -18,4 +18,4 @@ import IconBadge from '../IconBadge';
     )}
   />
 </StreamApp>;
-```
+```;

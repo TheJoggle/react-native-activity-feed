@@ -31,8 +31,18 @@
     "no-console": 0,
     "no-mixed-spaces-and-tabs": 1,
     "no-self-compare": 2,
-    "no-underscore-dangle": [2, { "allowAfterThis": true }],
-    "no-unused-vars": [1, { "ignoreRestSiblings": true }],
+    "no-underscore-dangle": [
+      2,
+      {
+        "allowAfterThis": true
+      }
+    ],
+    "no-unused-vars": [
+      1,
+      {
+        "ignoreRestSiblings": true
+      }
+    ],
     "no-useless-concat": 2,
     "no-var": 2,
     "object-shorthand": 1,
@@ -95,8 +105,18 @@
         "no-mixed-spaces-and-tabs": 1,
         "no-self-compare": 2,
         "no-shadow": 0,
-        "no-underscore-dangle": [2, { "allowAfterThis": true }],
-        "no-unused-vars": [1, { "ignoreRestSiblings": true }],
+        "no-underscore-dangle": [
+          2,
+          {
+            "allowAfterThis": true
+          }
+        ],
+        "no-unused-vars": [
+          1,
+          {
+            "ignoreRestSiblings": true
+          }
+        ],
         "no-useless-concat": 2,
         "no-var": 2,
         "object-shorthand": 1,

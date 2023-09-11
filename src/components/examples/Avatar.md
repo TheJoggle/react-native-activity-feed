@@ -23,4 +23,4 @@ import Avatar from '../Avatar';
     styles={{ container: { marginTop: 10 } }}
   />
 </div>;
-```
+```;

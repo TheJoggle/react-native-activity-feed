@@ -31,7 +31,7 @@ const App = () => {
     return null;
   }
 
-  const renderActivity = props => (
+  const renderActivity = (props) => (
     <Activity {...props} Footer={<LikeButton {...props} />} />
   );
 

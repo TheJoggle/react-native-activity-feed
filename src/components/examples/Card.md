@@ -7,4 +7,4 @@ import Card from '../Card';
   image='https://goo.gl/kXF1VG'
   url='https://getstream.io'
 />;
-```
+```;

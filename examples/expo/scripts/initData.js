@@ -250,8 +250,9 @@ async function main() {
         user.reactions.add('comment', fluffActivity, {
           id: `random-comment-fluff-2-${i}`,
           data: {
-            text: `Oh yeah! ${(user.currentUser.data || {}).name ||
-              'Unknown'} loves this!`,
+            text: `Oh yeah! ${
+              (user.currentUser.data || {}).name || 'Unknown'
+            } loves this!`,
           },
         }),
       ),
@@ -274,8 +275,9 @@ async function main() {
         user.reactions.add('comment', bowieActivity, {
           id: `random-comment-bowie-${i}`,
           data: {
-            text: `${(user.currentUser.data || {}).name ||
-              'Unknown'} thinks this is the best podcast ever!`,
+            text: `${
+              (user.currentUser.data || {}).name || 'Unknown'
+            } thinks this is the best podcast ever!`,
           },
         }),
       ),

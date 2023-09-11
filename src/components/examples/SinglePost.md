@@ -39,4 +39,4 @@ const activity = {
     )}
   />
 </StreamApp>;
-```
+```;

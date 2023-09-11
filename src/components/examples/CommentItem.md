@@ -16,4 +16,4 @@ import CommentItem from '../CommentItem';
     },
   }}
 />;
-```
+```;

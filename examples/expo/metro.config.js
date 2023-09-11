@@ -121,7 +121,7 @@ function getPolyfillHelper() {
   // See if project has custom polyfills, if so, include the PATH to them
   try {
     const customPolyfills = require.resolve('./polyfills.js');
-    getPolyfills = (function(originalGetPolyfills) {
+    getPolyfills = (function (originalGetPolyfills) {
       return () => originalGetPolyfills().concat(customPolyfills);
     })(getPolyfills);
   } catch (e) {
