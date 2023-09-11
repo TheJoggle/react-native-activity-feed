@@ -1,1 +1,9 @@
-.eslintignore
+**/*{.,-}min.js
+node_modules/
+/native-package/lib/
+/expo-package/lib/
+build
+dist
+/docs/
+/.git/
+.expo/
