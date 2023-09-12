@@ -1,6 +1,6 @@
 {
   "name": "@apzelos/react-native-activity-feed",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "license": "BSD-3-Clause",
   "author": {
     "company": "Stream.io Inc"
@@ -35,7 +35,7 @@
     "react-test-renderer": "^18.2.0"
   },
   "main": "./src/index.js",
-  "typings": "./react-native-activity-feed.d.ts",
+  "types": "./react-native-activity-feed.d.ts",
   "scripts": {
     "eslint": "eslint '**/*.js' --max-warnings 0",
     "prettier": "prettier --list-different '**/*.{js,ts}'",
@@ -47,11 +47,12 @@
     "postpack": "rm README.md"
   },
   "dependencies": {
-    "@apzelos/react-native-activity-feed-core": "2.0.4",
+    "@apzelos/react-native-activity-feed-core": "2.0.5",
     "react-native-image-crop-picker": "^0.40.0"
   },
   "files": [
     "src",
-    "README.md"
+    "README.md",
+    "react-native-activity-feed.d.ts"
   ]
 }

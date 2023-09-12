@@ -1,7 +1,7 @@
 {
   "name": "@apzelos/react-native-activity-feed-core",
   "description": "",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "license": "BSD-3-Clause",
   "author": "APZelos",
   "keywords": [
@@ -51,7 +51,7 @@
     "webpack": "^5.88.2"
   },
   "main": "./src/index.js",
-  "typings": "./react-native-activity-feed-core.d.ts",
+  "types": "./react-native-activity-feed-core.d.ts",
   "scripts": {
     "build": "yarn build-translations",
     "eslint": "eslint '**/*.{js,md}' --max-warnings 0",
@@ -90,7 +90,8 @@
   },
   "files": [
     "src",
-    "README.md"
+    "README.md",
+    "react-native-activity-feed-core.d.ts"
   ],
   "repository": {
     "type": "git",
