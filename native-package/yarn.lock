@@ -15,10 +15,10 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@apzelos/react-native-activity-feed-core@2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@apzelos/react-native-activity-feed-core/-/react-native-activity-feed-core-2.0.4.tgz#916f3eac06656a2f045a458efbba253c403866f5"
-  integrity sha512-4Q01Olz81BHzx/sN2qMHPfEcSFiZH4TWFz4Kzqm8zDlHEiFapAapSu7ymp4Kp2IM3jNa64L0qgVtAunllkcsuw==
+"@apzelos/react-native-activity-feed-core@2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@apzelos/react-native-activity-feed-core/-/react-native-activity-feed-core-2.0.5.tgz#119a78f13e6869a77eb59eaa4b002ba4a26906d1"
+  integrity sha512-/qKF7feymJSZvuSOHXDrOHKQeRWu9+BMcnpjl7xzTX94kPhNU/DfpjTWVvLc2GkQMCARyckyESJzoz913R6zeg==
   dependencies:
     dayjs "^1.11.9"
     es6-symbol "^3.1.3"
