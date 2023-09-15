@@ -65,10 +65,11 @@ const ReactionIcon = withTranslationContext((props) => {
   if (props.width !== undefined) {
     dimensions.width = props.width;
   }
+  const {Icon} = props
 
   return (
     <TouchableOpacity style={styles.container} onPress={props.onPress}>
-      <Image source={props.icon} style={[styles.image, dimensions]} />
+      {Icon ? <Icon /> : <Image source={props.icon} style={[styles.image, dimensions]} />}
       {count != null ? (
         <Text style={styles.text}>{defaultLabelFunction(count, props)}</Text>
       ) : null}
