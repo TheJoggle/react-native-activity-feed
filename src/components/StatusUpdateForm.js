@@ -29,8 +29,8 @@ const ImageState = Object.freeze({
   UPLOAD_FAILED: Symbol('upload_failed'),
 });
 
-const urlRegex =
-  /(?:\s|^)((?:https?:\/\/)?(?:[a-z0-9-]+(?:\.[a-z0-9-]+)+)(?::[0-9]+)?(?:\/(?:[^\s]+)?)?)/g;
+const urlRegex = /(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g;
+
 class StatusUpdateForm extends React.Component {
   static defaultProps = {
     feedGroup: 'user',
