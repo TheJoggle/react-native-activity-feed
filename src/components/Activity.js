@@ -286,6 +286,7 @@ export default class Activity extends React.Component {
         style={[styles.container]}
         onPress={this._getOnPress()}
         disabled={!this._getOnPress()}
+        activeOpacity={0.7}
       >
         {smartRender(Header, {}, this.renderHeader)}
         {smartRender(Content, {}, this.renderContent)}
