@@ -2,8 +2,8 @@ declare module '@apzelos/react-native-activity-feed' {
   import { Component } from 'react';
   import { StreamClient, StreamUser } from 'getstream';
   // Context
-  export class StreamApp extends Component {}
-  export class Feed extends Component {}
+  export class StreamApp extends Component<any> {}
+  export class Feed extends Component<any> {}
   export const StreamContext: React.Context<{ client: StreamClient; user: StreamUser }>;
   export const FeedContext: React.Context<unknown>;
   export const TranslationContext: React.Context<unknown>;
@@ -11,32 +11,32 @@ declare module '@apzelos/react-native-activity-feed' {
   export function withTranslationContext<C extends React.Component>(component: C): C;
 
   // Components
-  export class FlatFeed extends Component {}
-  export class NotificationFeed extends Component {}
-  export class SinglePost extends Component {}
-  export class Avatar extends Component {}
-  export class FollowButton extends Component {}
-  export class UrlPreview extends Component {}
-  export class StatusUpdateForm extends Component {}
-  export class UploadImage extends Component {}
-  export class UserBar extends Component {}
-  export class UserCard extends Component {}
-  export class ReactionIcon extends Component {}
-  export class ReactionToggleIcon extends Component {}
-  export class ReactionIconBar extends Component {}
-  export class CommentsContainer extends Component {}
-  export class Card extends Component {}
-  export class ReactionList extends Component {}
-  export class SectionHeader extends Component {}
-  export class CommentBox extends Component {}
-  export class CommentItem extends Component {}
-  export class CommentList extends Component {}
-  export class LikeList extends Component {}
-  export class BackButton extends Component {}
-  export class Activity extends Component {}
-  export class LikeButton extends Component {}
-  export class NewActivitiesNotification extends Component {}
-  export class IconBadge extends Component {}
+  export class FlatFeed extends Component<any> {}
+  export class NotificationFeed extends Component<any> {}
+  export class SinglePost extends Component<any> {}
+  export class Avatar extends Component<any> {}
+  export class FollowButton extends Component<any> {}
+  export class UrlPreview extends Component<any> {}
+  export class StatusUpdateForm extends Component<any> {}
+  export class UploadImage extends Component<any> {}
+  export class UserBar extends Component<any> {}
+  export class UserCard extends Component<any> {}
+  export class ReactionIcon extends Component<any> {}
+  export class ReactionToggleIcon extends Component<any> {}
+  export class ReactionIconBar extends Component<any> {}
+  export class CommentsContainer extends Component<any> {}
+  export class Card extends Component<any> {}
+  export class ReactionList extends Component<any> {}
+  export class SectionHeader extends Component<any> {}
+  export class CommentBox extends Component<any> {}
+  export class CommentItem extends Component<any> {}
+  export class CommentList extends Component<any> {}
+  export class LikeList extends Component<any> {}
+  export class BackButton extends Component<any> {}
+  export class Activity extends Component<any> {}
+  export class LikeButton extends Component<any> {}
+  export class NewActivitiesNotification extends Component<any> {}
+  export class IconBadge extends Component<any> {}
 
   // Style
   export function updateStyle(...args: unknown[]): unknown;
