@@ -265,6 +265,10 @@ export const styles = {
       paddingLeft: 15,
       paddingRight: 15,
     },
+    imageContainer: {},
+    image: {
+      aspectRatio: 1,
+    },
     mention: {
       color: '#0076FF',
       fontWeight: '700',
