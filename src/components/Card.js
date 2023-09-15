@@ -29,9 +29,9 @@ const Card = (props) => {
         resizeMethod='resize'
       />
       <View style={styles.content}>
-        <Text style={styles.title}>{_.truncate(title, { length: 60 })}</Text>
-        <Text style={styles.description}>
-          {_.truncate(description, { length: 60 })}
+        <Text style={styles.title} numberOfLines={2}>{title}</Text>
+        <Text style={styles.description} numberOfLines={2}>
+          {description}
         </Text>
       </View>
     </TouchableOpacity>
