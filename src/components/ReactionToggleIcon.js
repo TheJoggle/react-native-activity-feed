@@ -12,17 +12,21 @@ import ReactionIcon from './ReactionIcon';
  * is a good example of the usage of this component.
  */
 export default function ReactionToggleIcon({
+  ActiveIcon,
   activeIcon,
+  InactiveIcon,
   inactiveIcon,
   own_reactions,
   kind = 'like',
   ...props
 }) {
+  let Icon = InactiveIcon
   let icon = inactiveIcon;
   if (own_reactions && own_reactions[kind] && own_reactions[kind].length) {
     icon = activeIcon;
+    Icon = ActiveIcon
   }
-  return <ReactionIcon icon={icon} kind={kind} {...props} />;
+  return <ReactionIcon Icon={Icon} icon={icon} kind={kind} {...props} />;
 }
 
 ReactionToggleIcon.propTypes = {
