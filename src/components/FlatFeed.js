@@ -144,7 +144,6 @@ class FlatFeedInner extends React.Component {
   _refresh = async () => {
     this._scrollToTop();
     await this.props.refresh(this.props.options);
-    this._scrollToTop();
   };
 
   _scrollToTop() {
