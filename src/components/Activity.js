@@ -51,7 +51,7 @@ export default class Activity extends React.Component {
     activity: PropTypes.object,
     /** Width of an image that's displayed, by default this is
      * the width of the screen */
-    imageWidth: PropTypes.number,
+    imageWidth: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
     /** Styling of the component */
     styles: PropTypes.object,
     /**
