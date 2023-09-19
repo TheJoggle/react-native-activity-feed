@@ -20,7 +20,7 @@ import { buildStylesheet } from '../styles';
 import _ from 'lodash';
 import Symbol from 'es6-symbol';
 import KeyboardAccessory from 'react-native-sticky-keyboard-accessory';
-import KeyboardSpacer from 'react-native-keyboard-spacer';
+import KeyboardSpacer from 'react-native-keyboard-spacer-abivet';
 
 const ImageState = Object.freeze({
   NO_IMAGE: Symbol('no_image'),
