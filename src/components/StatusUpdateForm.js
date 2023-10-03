@@ -474,7 +474,7 @@ class StatusUpdateFormInner extends React.Component {
             </View>
           </View>
         </View>
-        {this.props.fullscreen ? <KeyboardSpacer /> : null}
+        {this.props.fullscreen && Platform.OS === 'ios' ? <KeyboardSpacer /> : null}
       </View>
     );
   }
