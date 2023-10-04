@@ -1,6 +1,6 @@
 {
   "name": "@apzelos/react-native-activity-feed",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "license": "BSD-3-Clause",
   "author": {
     "company": "Stream.io Inc"
@@ -47,7 +47,7 @@
     "postpack": "rm README.md"
   },
   "dependencies": {
-    "@apzelos/react-native-activity-feed-core": "2.0.10",
+    "@apzelos/react-native-activity-feed-core": "2.0.11",
     "react-native-image-crop-picker": "^0.40.0"
   },
   "files": [
