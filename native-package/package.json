@@ -55,7 +55,11 @@
     "README.md",
     "react-native-activity-feed.d.ts"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheJoggle/react-native-activity-feed.git"
+  },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@thejoggle"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
