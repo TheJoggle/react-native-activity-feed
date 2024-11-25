@@ -1,4 +1,4 @@
-declare module '@apzelos/react-native-activity-feed-core' {
+declare module '@thejoggle/react-native-activity-feed-core' {
   import { Component } from 'react';
   import { StreamClient, StreamUser } from 'getstream';
   // Context

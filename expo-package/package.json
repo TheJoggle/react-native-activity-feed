@@ -1,10 +1,8 @@
 {
-  "name": "@apzelos/expo-activity-feed",
-  "version": "2.0.4",
+  "name": "@thejoggle/expo-activity-feed",
+  "version": "2.0.0",
   "license": "BSD-3-Clause",
-  "author": {
-    "company": "Stream.io Inc"
-  },
+  "author": "The Joggle",
   "keywords": [
     "feed",
     "newsfeed",
@@ -42,7 +40,7 @@
     "postpack": "rm README.md"
   },
   "dependencies": {
-    "@apzelos/react-native-activity-feed-core": "2.0.4"
+    "@thejoggle/react-native-activity-feed-core": "2.0.4"
   },
   "peerDependencies": {
     "expo": "^49.0.0",

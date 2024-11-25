@@ -1,4 +1,4 @@
-import { registerNativeHandlers } from '@apzelos/react-native-activity-feed-core';
+import { registerNativeHandlers } from '@thejoggle/react-native-activity-feed-core';
 import * as Permissions from 'expo-permissions';
 import * as ImagePicker from 'expo-image-picker';
 
@@ -35,4 +35,4 @@ registerNativeHandlers({
   },
 });
 
-export * from '@apzelos/react-native-activity-feed-core';
+export * from '@thejoggle/react-native-activity-feed-core';
